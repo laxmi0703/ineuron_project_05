@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+body, html {
+    height: 100%;
+    margin: 0px;
+  }
+  
+
+
+.container{
+    background-image:url(assets/bg.png);
+    height: 145%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+.logo{
+  width:120px;
+  margin-left: 6rem;
+  margin-top: 10px;
+}
+
+.line{
+  color:white;
+  border-left: 2px solid white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  /* margin-right: 23% */
+  margin-right: 10px;
+}
+.navbar {
+    display: flex;
+    padding: 0px;
+    background-color: black;
+    height: 90px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+.list{
+    color:#fff;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 18.75px;
+
+  }
+
+  .list > li {
+    padding: 10px 30px; 
+    color: white;
+    list-style-type: none;
+    margin-top: 10px;
+    
+  }
+.list-item:nth-child(1)::after {
+  content: '';
+  border: solid #ffffff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  margin-left: 15px;
+} 
+  
+  .navbar .button-small {
+    margin-top: 15px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color:#ba0cc5;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 60px;
+  }
+
+  .hero {
+    text-align: center;
+    top: 23%;
+    left: 10%;
+    right: 10%;
+    position: absolute;
+  }
+  
+  .hero .hero-heading {
+    font-size: 110px;
+    color: white;
+    line-height: 90%;
+    font-style:initial;
+    margin-left:10%;
+    
+  }
+  
+  .hero .button-large {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    font-size: 30px;
+    margin: 25px;
+    padding: 25px 25px;
+    color: white;
+    background-color: #ba0cc5;
+    text-align: center;
+    cursor: pointer;
+   border-radius: 20px; 
+  }
+
+  p{
+    color:white;
+    margin: 10px;
+    font-size: 30px;
+    padding: 20px 20px ;
+  }
+  
+   
